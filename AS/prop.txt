@@ -1,0 +1,16 @@
+port_serveur_as=50001
+ip_serveur_as=localhost
+
+maxThread=5
+
+urlDb=jdbc:mysql://localhost:3306/BD_GFB
+usernameDb=eric
+passwordDb=eric
+
+urlAu=jdbc:mysql://localhost:3306/AuthenticationServer
+usernameAu=eric
+passwordAu=eric
+
+as_Ktgs_path=AS/src/main/java/ASKeystore.jce
+as_Ktgs_password=9SRvf9ubMSkaFgNF
+as_Ktgs_alias=Ktgs

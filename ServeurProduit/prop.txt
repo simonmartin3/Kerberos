@@ -1,0 +1,16 @@
+port_serveur_produits=50003
+ip_serveur_produits=localhost
+
+maxThread=5
+
+urlDb=jdbc:mysql://localhost:3306/BD_GFB
+usernameDb=eric
+passwordDb=eric
+
+urlAu=jdbc:mysql://localhost:3306/AuthenticationServer
+usernameAu=eric
+passwordAu=eric
+
+produit_ks_path=ServeurProduit/src/main/resources/ServeurProduitsKeystore.jce
+produit_ks_password=Ga4jV2yBg9QhtPcs
+produit_ks_alias=Ks

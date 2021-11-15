@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AS/AS.iml" filepath="$PROJECT_DIR$/AS/AS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Client/Client.iml" filepath="$PROJECT_DIR$/Client/Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ClientTestMaven/ClientTestMaven.iml" filepath="$PROJECT_DIR$/ClientTestMaven/ClientTestMaven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Crypto/Crypto.iml" filepath="$PROJECT_DIR$/Crypto/Crypto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DTO/DTO.iml" filepath="$PROJECT_DIR$/DTO/DTO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Kerberos.iml" filepath="$PROJECT_DIR$/.idea/Kerberos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MySqlLib/MySqlLib.iml" filepath="$PROJECT_DIR$/MySqlLib/MySqlLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServeurCertificat/ServeurCertificat.iml" filepath="$PROJECT_DIR$/ServeurCertificat/ServeurCertificat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServeurContact/ServeurContact.iml" filepath="$PROJECT_DIR$/ServeurContact/ServeurContact.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServeurProduit/ServeurProduit.iml" filepath="$PROJECT_DIR$/ServeurProduit/ServeurProduit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TGS/TGS.iml" filepath="$PROJECT_DIR$/TGS/TGS.iml" />
+    </modules>
+  </component>
+</project>

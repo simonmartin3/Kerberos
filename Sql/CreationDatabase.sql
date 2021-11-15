@@ -1,0 +1,34 @@
+CREATE DATABASE IF NOT EXISTS BD_GFB;
+USE BD_GFB;
+CREATE TABLE IF NOT EXISTS  ARTICLE(
+id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+nom varchar(50) NOT NULL,
+quantite INT(6) unsigned NOT NULL,
+bio INT(2) unsigned NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS  COMMANDE(
+	id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    NomClient varchar(50) NOT NULL
+);
+
+
+CREATE TABLE IF NOT EXISTS  COMMANDE_ARTICLE(
+	id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    idCommande INT(6) UNSIGNED NOT NULL,
+    idArticle INT(6) UNSIGNED NOT NULL,
+    quantite INT(6) UNSIGNED NOT NULL
+);
+#Categorie :
+#1 = Commercial
+#2 = Recherche Agro
+#3 = Conseiller technique
+#4 = Conseiller Horeca
+CREATE table IF NOT EXISTS PERSONNEL(
+	id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    email varchar(60) NOT NULL,
+    categorie int(6) NOT NULL
+);
+
+CREATE USER IF NOT EXISTS 'eric' identified by 'eric'; 
+GRANT ALL ON *.* to 'eric' ;

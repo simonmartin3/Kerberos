@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ServeurProduit" />
+        <module name="TGS" />
+        <module name="AS" />
+        <module name="ServeurContact" />
+        <module name="ClientTestMaven" />
+        <module name="Client" />
+        <module name="ServeurCertificat" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AS" target="17" />
+      <module name="Client" target="17" />
+      <module name="ClientTestMaven" target="17" />
+      <module name="ServeurCertificat" target="17" />
+      <module name="ServeurContact" target="17" />
+      <module name="ServeurProduit" target="17" />
+      <module name="TGS" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

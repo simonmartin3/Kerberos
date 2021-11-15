@@ -1,0 +1,16 @@
+port_serveur_tgs=50002
+ip_serveur_tgs=localhost
+
+maxThread=5
+
+urlDb=jdbc:mysql://localhost:3306/BD_GFB
+usernameDb=eric
+passwordDb=eric
+
+urlAu=jdbc:mysql://localhost:3306/AuthenticationServer
+usernameAu=eric
+passwordAu=eric
+
+tgs_ks_path=TGS/src/main/resources/TGSKeystore.jce
+tgs_ks_password=4rsT6wtSTrTHVSFF
+tgs_ks_alias=Ktgs
